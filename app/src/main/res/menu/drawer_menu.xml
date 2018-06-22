@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="explore">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="Games"
+                    />
+
+                <item
+                    android:title="Channels"
+                    />
+                <item
+                    android:title="Community"
+                    />
+                <item
+                    android:title="Followed"
+                    />
+                <item
+                    android:title="Subscriptions"
+                    />
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="App Setting">
+        <menu>
+            <item android:title="Settings" />
+        </menu>
+    </item>
+
+    <item
+        android:title="log out"
+        />
+
+</menu>
